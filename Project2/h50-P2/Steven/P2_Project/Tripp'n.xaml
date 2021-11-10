@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Tripp_n" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="947.2,1068.8" sap2010:WorkflowViewState.IdRef="Tripp_n_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:g="clr-namespace:GetWeather;assembly=GetWeather" xmlns:ga="clr-namespace:GoogleMaps.Activities;assembly=GoogleMaps.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:s1="clr-namespace:SendSMS;assembly=SendSMS" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System" xmlns:uga="clr-namespace:UiPathTeam.GoogleMaps.Activities;assembly=UiPathTeam.GoogleMaps.Activities" xmlns:ugmf="clr-namespace:UiPathTeam.GoogleMaps.Models.FindPlace;assembly=UiPathTeam.GoogleMaps" xmlns:ugmp="clr-namespace:UiPathTeam.GoogleMaps.Models.PlaceAutocomplete;assembly=UiPathTeam.GoogleMaps" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:usa="clr-namespace:UiPath.Shared.Activities;assembly=GoogleMaps.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Tripp_n" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="946.4,1068.8" sap2010:WorkflowViewState.IdRef="Tripp_n_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:g="clr-namespace:GetWeather;assembly=GetWeather" xmlns:ga="clr-namespace:GoogleMaps.Activities;assembly=GoogleMaps.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/word" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:s1="clr-namespace:SendSMS;assembly=SendSMS" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:str="clr-namespace:System.Text.RegularExpressions;assembly=System" xmlns:uga="clr-namespace:UiPathTeam.GoogleMaps.Activities;assembly=UiPathTeam.GoogleMaps.Activities" xmlns:ugmf="clr-namespace:UiPathTeam.GoogleMaps.Models.FindPlace;assembly=UiPathTeam.GoogleMaps" xmlns:ugmp="clr-namespace:UiPathTeam.GoogleMaps.Models.PlaceAutocomplete;assembly=UiPathTeam.GoogleMaps" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:usa="clr-namespace:UiPath.Shared.Activities;assembly=GoogleMaps.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="98">
       <x:String>System.Activities</x:String>
@@ -144,9 +144,6 @@
               <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Transition.Condition>
-            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="Response = &quot;Yes&quot;" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
-          </Transition.Condition>
           <Transition.To>
             <State x:Name="__ReferenceID1" DisplayName="Geolocation" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_2">
               <State.Entry>
@@ -251,7 +248,7 @@
                         <ui:WriteTextFile DisplayName="Write Text File" FileName="GoogleMaps\Directions.txt" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[JResponse+Environment.NewLine+Distance]" />
                       </State.Exit>
                       <State.Transitions>
-                        <Transition DisplayName="T5" sap2010:WorkflowViewState.IdRef="Transition_8">
+                        <Transition DisplayName="T5" sap:VirtualizedContainerService.HintSize="448.8,509.6" sap2010:WorkflowViewState.IdRef="Transition_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:PointCollection x:Key="ConnectorLocation">470,340.8 470,413.08 376.8,413.08</av:PointCollection>
@@ -385,9 +382,9 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                           <Transition.To>
-                                            <State x:Name="__ReferenceID6" DisplayName="Get Weather" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_6">
+                                            <State x:Name="__ReferenceID6" DisplayName="Get Weather" sap:VirtualizedContainerService.HintSize="420,1012.8" sap2010:WorkflowViewState.IdRef="State_6">
                                               <State.Entry>
-                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,268.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,401.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -412,6 +409,7 @@
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
                                                   </ui:InvokeWorkflowFile>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Weatherforcast workflow invoked&quot;]" />
                                                 </Sequence>
                                               </State.Entry>
                                               <sap:WorkflowViewStateService.ViewState>
@@ -422,7 +420,7 @@
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
                                               <State.Exit>
-                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,227.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,360" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -435,6 +433,7 @@
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
                                                   </ui:WriteTextFile>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Weatherforcast written to excel and conditions to weather.txt&quot;]" />
                                                 </Sequence>
                                               </State.Exit>
                                               <State.Transitions>
@@ -449,13 +448,13 @@
                                                   <Transition.To>
                                                     <State x:Name="__ReferenceID7" DisplayName="Gas" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_12">
                                                       <State.Entry>
-                                                        <Sequence DisplayName="Gas" sap:VirtualizedContainerService.HintSize="688.8,2904" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                                        <Sequence DisplayName="Gas" sap:VirtualizedContainerService.HintSize="593.6,1517.6" sap2010:WorkflowViewState.IdRef="Sequence_24">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="647.2,1706.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="552,187.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                                                             <TryCatch.Try>
                                                               <If Condition="[currLocation.GetType.ToString = &quot;System.String&quot;]" sap:VirtualizedContainerService.HintSize="610.4,1475.2" sap2010:WorkflowViewState.IdRef="If_3">
                                                                 <If.Then>
@@ -583,7 +582,7 @@
                                                               </If>
                                                             </TryCatch.Try>
                                                             <TryCatch.Catches>
-                                                              <Catch x:TypeArguments="s:NullReferenceException" sap:VirtualizedContainerService.HintSize="613.6,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                                              <Catch x:TypeArguments="s:NullReferenceException" sap:VirtualizedContainerService.HintSize="400,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -594,13 +593,13 @@
                                                                   <ActivityAction.Argument>
                                                                     <DelegateInArgument x:TypeArguments="s:NullReferenceException" Name="exception" />
                                                                   </ActivityAction.Argument>
-                                                                  <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="508.8,1325.6" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" Url="https://www.gasbuddy.com/tripcostcalculator">
+                                                                  <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="508.8,1458.4" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" Url="https://www.gasbuddy.com/tripcostcalculator">
                                                                     <ui:OpenBrowser.Body>
                                                                       <ActivityAction x:TypeArguments="x:Object">
                                                                         <ActivityAction.Argument>
                                                                           <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                                                         </ActivityAction.Argument>
-                                                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,1223.2" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,1356" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                                                           <sap:WorkflowViewStateService.ViewState>
                                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -710,6 +709,7 @@
                                                                               </ui:Target>
                                                                             </ui:Click.Target>
                                                                           </ui:Click>
+                                                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;NullReference Exception Caught&quot;]" />
                                                                         </Sequence>
                                                                       </ActivityAction>
                                                                     </ui:OpenBrowser.Body>
@@ -718,7 +718,7 @@
                                                               </Catch>
                                                             </TryCatch.Catches>
                                                           </TryCatch>
-                                                          <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="647.2,1064.8" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                                          <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="552,1197.6" sap2010:WorkflowViewState.IdRef="Sequence_23">
                                                             <Sequence.Variables>
                                                               <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
                                                             </Sequence.Variables>
@@ -727,13 +727,13 @@
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'GasTripCa Page'" sap:VirtualizedContainerService.HintSize="510.4,972" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="9084e74c5322a84211d0214c1703f85c" Selector="&lt;html app='chrome.exe' title='Gas Trip Calculator. Find lowest fuel prices &amp;amp; save - GasBuddy.com' /&gt;">
+                                                            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'GasTripCa Page'" sap:VirtualizedContainerService.HintSize="510.4,1104.8" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="9084e74c5322a84211d0214c1703f85c" Selector="&lt;html app='chrome.exe' title='Gas Trip Calculator. Find lowest fuel prices &amp;amp; save - GasBuddy.com' /&gt;">
                                                               <ui:BrowserScope.Body>
                                                                 <ActivityAction x:TypeArguments="x:Object">
                                                                   <ActivityAction.Argument>
                                                                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                                                   </ActivityAction.Argument>
-                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476.8,824.8" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476.8,957.6" sap2010:WorkflowViewState.IdRef="Sequence_22">
                                                                     <Sequence.Variables>
                                                                       <Variable x:TypeArguments="x:String" Name="table" />
                                                                     </Sequence.Variables>
@@ -776,6 +776,7 @@
                                                                       </ui:CommentOut.Body>
                                                                     </ui:CommentOut>
                                                                     <ui:WriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="435.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="GoogleMaps/RestStops.xlsx" />
+                                                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="435.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Write Rest Stops to reststops.xlsx sheet&quot;]" />
                                                                   </Sequence>
                                                                 </ActivityAction>
                                                               </ui:BrowserScope.Body>
@@ -802,7 +803,7 @@
                                                           <Transition.To>
                                                             <State x:Name="__ReferenceID8" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_11" IsFinal="True">
                                                               <State.Entry>
-                                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,301.6" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                                                <Sequence sap:VirtualizedContainerService.HintSize="375.2,434.4" sap2010:WorkflowViewState.IdRef="Sequence_25">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -811,10 +812,18 @@
                                                                   <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" IsBodyHtml="False" IsDraft="False" Subject="TRIPP'N Info" To="sagenor73@gmail.com">
                                                                     <ui:SendOutlookMail.Files>
                                                                       <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                                                                        <InArgument x:TypeArguments="x:String">GoogleMaps/Directions.docx</InArgument>
-                                                                        <InArgument x:TypeArguments="x:String">Weather.txt</InArgument>
-                                                                        <InArgument x:TypeArguments="x:String">Weather/WeatherForcast.xlsx</InArgument>
-                                                                        <InArgument x:TypeArguments="x:String" />
+                                                                        <InArgument x:TypeArguments="x:String">
+                                                                          <Literal x:TypeArguments="x:String">GoogleMaps/Directions.docx</Literal>
+                                                                        </InArgument>
+                                                                        <InArgument x:TypeArguments="x:String">
+                                                                          <Literal x:TypeArguments="x:String">Weather.txt</Literal>
+                                                                        </InArgument>
+                                                                        <InArgument x:TypeArguments="x:String">
+                                                                          <Literal x:TypeArguments="x:String">Weather/WeatherForcast.xlsx</Literal>
+                                                                        </InArgument>
+                                                                        <InArgument x:TypeArguments="x:String">
+                                                                          <Literal x:TypeArguments="x:String">GoogleMaps/RestStops.xlsx</Literal>
+                                                                        </InArgument>
                                                                       </scg:List>
                                                                     </ui:SendOutlookMail.Files>
                                                                     <sap:WorkflowViewStateService.ViewState>
@@ -823,6 +832,7 @@
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
                                                                   </ui:SendOutlookMail>
+                                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Outlook Messages sent&quot;]" />
                                                                   <s1:SendSMS sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="SendSMS_1" Message="[&quot;Current Weather conditions: &quot;+conditions+Environment.NewLine+&quot;Wind: &quot;+windDeg+Environment.NewLine+windSpeed+&quot;mph&quot;+Environment.NewLine+&quot;Current Temp: &quot;+currTemp.ToString+&quot;F&quot;+Environment.NewLine+&quot;High Temp: &quot;+highTemp.ToString+&quot;F&quot;+Environment.NewLine+&quot;Low Temp: &quot;+lowTemp.ToString+&quot;F&quot;]" PhoneNumber="+19542280524">
                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -860,6 +870,9 @@
                               </State.Variables>
                             </State>
                           </Transition.To>
+                          <Transition.Action>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;User directions from geolocation&quot;]" />
+                          </Transition.Action>
                         </Transition>
                       </State.Transitions>
                       <State.Variables>
@@ -872,6 +885,12 @@
               </State.Transitions>
             </State>
           </Transition.To>
+          <Transition.Action>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;User uses geolocation for location&quot;]" />
+          </Transition.Action>
+          <Transition.Condition>
+            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="Response = &quot;Yes&quot;" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
+          </Transition.Condition>
         </Transition>
         <Transition DisplayName="T2" sap:VirtualizedContainerService.HintSize="448.8,509.6" sap2010:WorkflowViewState.IdRef="Transition_4">
           <sap:WorkflowViewStateService.ViewState>
@@ -881,9 +900,6 @@
               <x:Int32 x:Key="DestConnectionPointIndex">34</x:Int32>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Transition.Condition>
-            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="Response = &quot;No&quot;" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_2" />
-          </Transition.Condition>
           <Transition.To>
             <State x:Name="__ReferenceID2" DisplayName="Input Location" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_3">
               <State.Entry>
@@ -1153,7 +1169,7 @@
                         <ui:WriteTextFile DisplayName="Write Text File" FileName="GoogleMaps\Directions.txt" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_3" Text="[JResponse + Environment.NewLine + Distance]" />
                       </State.Exit>
                       <State.Transitions>
-                        <Transition DisplayName="T6" sap2010:WorkflowViewState.IdRef="Transition_10">
+                        <Transition DisplayName="T6" sap:VirtualizedContainerService.HintSize="448.8,509.6" sap2010:WorkflowViewState.IdRef="Transition_10">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:PointCollection x:Key="ConnectorLocation">113.32,340.8 113.32,419.24 243.2,419.24</av:PointCollection>
@@ -1164,6 +1180,9 @@
                           <Transition.To>
                             <x:Reference>__ReferenceID0</x:Reference>
                           </Transition.To>
+                          <Transition.Action>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Trace" Message="[&quot;User Location input written to text&quot;]" />
+                          </Transition.Action>
                         </Transition>
                       </State.Transitions>
                       <State.Variables>
@@ -1176,6 +1195,12 @@
               </State.Transitions>
             </State>
           </Transition.To>
+          <Transition.Action>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;User uses input for location&quot;]" />
+          </Transition.Action>
+          <Transition.Condition>
+            <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="Response = &quot;No&quot;" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_2" />
+          </Transition.Condition>
         </Transition>
       </State.Transitions>
     </State>
