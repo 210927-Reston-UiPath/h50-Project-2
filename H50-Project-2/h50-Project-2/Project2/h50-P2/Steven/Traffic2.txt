@@ -1,0 +1,4 @@
+Common bugs
+
+-Low temp has issue converting double
+-emails and sms used in send outlook and sms activity need to be changed for you to see results 

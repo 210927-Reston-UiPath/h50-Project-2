@@ -1,0 +1,66 @@
+{
+  "name": "P2_Project",
+  "description": "Trip app for local commutes as well as long distance road trips",
+  "main": "Main.xaml",
+  "dependencies": {
+    "GetCurrentConditions": "[1.0.2]",
+    "GetCurrentTemp": "[1.0.2]",
+    "GetWeather": "[1.0.2]",
+    "GoogleApi": "[4.0.4]",
+    "GoogleMaps.Activities": "[1.0.4]",
+    "IP2Location.IPGeolocation": "[8.7.0]",
+    "OpenWeatherMap.Activities": "[1.0.3]",
+    "SendSMS": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.2]",
+    "UiPath.System.Activities": "[21.10.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.3]",
+    "UiPath.Word.Activities": "[1.7.3]",
+    "UiPathTeam.GoogleMaps.Activities": "[0.1.7192.29405]",
+    "UiPathTeam.JsonDataConverter.Activities": "[1.1.0]",
+    "WeatherForcast": "[1.0.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.7.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a55a2aac-f6b6-40dd-a2fc-25386c7c566b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
