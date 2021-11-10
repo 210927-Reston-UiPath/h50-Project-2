@@ -1,0 +1,9 @@
+Current Weather conditions: 
+     scattered clouds
+Wind: 
+  deg: 329
+
+  speed: 2.86mph
+Current Temp: 56F
+High Temp: 60F
+Low Temp: 52F
