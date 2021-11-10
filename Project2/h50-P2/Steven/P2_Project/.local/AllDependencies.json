@@ -7092,6 +7092,7 @@
       "path": "twilio/5.46.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net35/Twilio.dll",
         "lib/net35/Twilio.xml",
         "lib/net451/Twilio.dll",
@@ -8266,15 +8267,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Steven\\.nuget\\packages\\": {}
+    "C:\\Users\\aaron\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "P2_Project",
       "projectName": "P2_Project",
-      "projectPath": "C:\\Users\\Steven\\Documents\\UiPath\\P2_Project\\.local",
-      "packagesPath": "C:\\Users\\Steven\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Steven\\Documents\\UiPath\\P2_Project\\.local"
+      "projectPath": "D:\\revature\\h50-Project-2\\h50-Project-2\\Project2\\h50-P2\\Steven\\P2_Project\\.local",
+      "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
+      "outputPath": "D:\\revature\\h50-Project-2\\h50-Project-2\\Project2\\h50-P2\\Steven\\P2_Project\\.local"
     },
     "frameworks": {
       "net461": {
