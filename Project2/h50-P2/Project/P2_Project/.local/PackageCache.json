@@ -2,6 +2,155 @@
   "Packages": [
     {
       "Package": {
+        "Id": "GoogleMaps.Activities",
+        "Version": "1.0.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities\\1.0.4"
+    },
+    {
+      "Package": {
+        "Id": "OpenWeatherMap.Activities",
+        "Version": "1.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.peopleservice.v1/1.43.0.1876\\lib/net45/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\openweathermap.activities/1.0.3\\lib/net45/OpenWeatherMap.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\restsharp/106.6.10\\lib/net452/RestSharp.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath/21.10.30.58966\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities/2.9.5\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities/2.9.5\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities/2.9.5\\lib/net461/UiPath.Excel.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.imageprocessing/21.10.2\\lib/net461/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/MailKit.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/MimeKit.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/UiPath.Mail.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\openweathermap.activities\\1.0.3"
+    },
+    {
+      "Package": {
+        "Id": "SendSMS",
+        "Version": "[1.0.1]"
+      },
+      "Assemblies": [],
+      "Path": null
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities/1.4.0\\lib/net452/Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities/1.4.0\\lib/net452/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities/1.4.0\\lib/net452/UiPath.Database.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities/1.4.0\\lib/net452/UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.9.5"
       },
@@ -10,10 +159,10 @@
         "C:\\Users\\Owner\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities/2.9.5\\lib/net461/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities/2.9.5\\lib/net461/UiPath.Excel.Activities.dll",
@@ -28,10 +177,10 @@
       },
       "Assemblies": [
         "C:\\Users\\Owner\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis/1.43.0\\lib/net45/Google.Apis.PlatformServices.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth/1.43.0\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\google.apis.calendar.v3/1.43.0.1872\\lib/net45/Google.Apis.Calendar.v3.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\google.apis.core/1.43.0\\lib/net45/Google.Apis.Core.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\google.apis.gmail.v1/1.43.0.1859\\lib/net45/Google.Apis.Gmail.v1.dll",
@@ -40,7 +189,7 @@
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identity.client/4.14.0\\lib/net45/Microsoft.Identity.Client.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/MailKit.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.mail.activities/1.9.5\\lib/net461/MimeKit.dll",
@@ -77,7 +226,7 @@
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
@@ -91,7 +240,7 @@
         "C:\\Users\\Owner\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
@@ -109,125 +258,181 @@
     },
     {
       "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.10.9"
+        "Id": "UiPath.Twilio.Activities",
+        "Version": "1.1.0"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge/2.2.5\\lib/AForge.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge.imaging/2.2.5\\lib/AForge.Imaging.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge.math/2.2.5\\lib/AForge.Math.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.logging/1.1.2\\lib/net451/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.tokens/5.1.2\\lib/net451/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.identitymodel.tokens.jwt/5.1.2\\lib/net451/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath/20.10.7641.24102\\lib/UiPath.Interop.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/2.4.1\\lib/net461/UiPath.OCR.Core.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/20.10.9\\lib/net461/UiPath.Wizards.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\twilio/5.46.2\\lib/net451/Twilio.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities/1.1.0\\lib/net461/UiPath.ContactCenterIntegrations.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities/1.1.0\\lib/net461/UiPath.Twilio.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities/1.1.0\\lib/net461/UiPath.Twilio.Activities.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities\\1.1.0"
     },
     {
       "Package": {
-        "Id": "GoogleMaps.Activities",
-        "Version": "1.0.4"
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "21.10.3"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities/1.0.4\\lib/net461/GoogleMaps.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath/21.10.30.58966\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.imageprocessing/21.10.2\\lib/net461/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities\\1.0.4"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3"
     },
     {
       "Package": {
-        "Id": "UiPathTeam.GoogleMaps.Activities",
-        "Version": "0.1.7192.29405"
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.9.2"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\restsharp/106.6.10\\lib/net452/RestSharp.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities/0.1.7192.29405\\lib/net461/UiPathTeam.GoogleMaps.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities/0.1.7192.29405\\lib/net461/UiPathTeam.GoogleMaps.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities/0.1.7192.29405\\lib/net461/UiPathTeam.GoogleMaps.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities\\0.1.7192.29405"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities\\1.9.2"
+    },
+    {
+      "Package": {
+        "Id": "WeatherReport.Activities",
+        "Version": "1.0.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit/6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json/12.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\restsharp/106.6.10\\lib/net452/RestSharp.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath/21.10.30.58966\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.activities.runtimegovernance/1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.imageprocessing/21.10.2\\lib/net461/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities/3.3.2\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts/2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform/21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.system.activities/20.10.4\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities/21.10.3\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision/3.1.4\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities/1.9.2\\lib/net461/UiPath.Web.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\weatherreport.activities/1.0.5\\lib/net45/WeatherReport.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\weatherreport.activities\\1.0.5"
+    },
+    {
+      "Package": {
+        "Id": "YahooWeatherSD",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\yahooweathersd/1.0.1\\lib/YahooWeatherAPI.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\yahooweathersd\\1.0.1"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
-    "AForge": {
-      "Id": "AForge",
-      "Version": "2.2.5",
-      "Dependencies": []
-    },
-    "AForge.Imaging": {
-      "Id": "AForge.Imaging",
-      "Version": "2.2.5",
-      "Dependencies": [
-        {
-          "Item1": "AForge",
-          "Item2": "[2.2.5, )"
-        },
-        {
-          "Item1": "AForge.Math",
-          "Item2": "[2.2.5, )"
-        }
-      ]
-    },
-    "AForge.Math": {
-      "Id": "AForge.Math",
-      "Version": "2.2.5",
-      "Dependencies": [
-        {
-          "Item1": "AForge",
-          "Item2": "[2.2.5, )"
-        }
-      ]
-    },
     "AvalonEdit": {
       "Id": "AvalonEdit",
-      "Version": "5.0.3",
+      "Version": "6.0.1",
       "Dependencies": []
     },
     "BouncyCastle": {
@@ -253,11 +458,6 @@
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
-      "Dependencies": []
-    },
-    "Extended.Wpf.Toolkit": {
-      "Id": "Extended.Wpf.Toolkit",
-      "Version": "3.8.1",
       "Dependencies": []
     },
     "Google.Apis": {
@@ -343,11 +543,6 @@
     "GoogleMaps.Activities": {
       "Id": "GoogleMaps.Activities",
       "Version": "1.0.4",
-      "Dependencies": []
-    },
-    "Humanizer.Core": {
-      "Id": "Humanizer.Core",
-      "Version": "2.4.2",
       "Dependencies": []
     },
     "interop.domino.dll": {
@@ -511,6 +706,11 @@
         }
       ]
     },
+    "Microsoft.CSharp": {
+      "Id": "Microsoft.CSharp",
+      "Version": "4.7.0",
+      "Dependencies": []
+    },
     "Microsoft.Exchange.WebServices": {
       "Id": "Microsoft.Exchange.WebServices",
       "Version": "2.2.0",
@@ -629,6 +829,25 @@
       "Version": "4.14.0",
       "Dependencies": []
     },
+    "Microsoft.IdentityModel.Logging": {
+      "Id": "Microsoft.IdentityModel.Logging",
+      "Version": "1.1.2",
+      "Dependencies": []
+    },
+    "Microsoft.IdentityModel.Tokens": {
+      "Id": "Microsoft.IdentityModel.Tokens",
+      "Version": "5.1.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Logging",
+          "Item2": "[1.1.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[9.0.1, )"
+        }
+      ]
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -646,12 +865,7 @@
     },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
-      "Version": "12.0.2",
-      "Dependencies": []
-    },
-    "NLog": {
-      "Id": "NLog",
-      "Version": "4.5.11",
+      "Version": "12.0.3",
       "Dependencies": []
     },
     "NPOI": {
@@ -661,6 +875,32 @@
         {
           "Item1": "SharpZipLib",
           "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "OpenWeatherMap.Activities": {
+      "Id": "OpenWeatherMap.Activities",
+      "Version": "1.0.3",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.Excel.Activities",
+          "Item2": "[2.6.2, )"
+        },
+        {
+          "Item1": "UiPath.Mail.Activities",
+          "Item2": "[1.5.0, )"
+        },
+        {
+          "Item1": "UiPath.System.Activities",
+          "Item2": "[19.6.0, )"
+        },
+        {
+          "Item1": "UiPath.UIAutomation.Activities",
+          "Item2": "[19.6.0, )"
+        },
+        {
+          "Item1": "UiPath.WebAPI.Activities",
+          "Item2": "[1.4.2, )"
         }
       ]
     },
@@ -679,15 +919,20 @@
       "Version": "4.5.1",
       "Dependencies": []
     },
-    "System.Collections.Immutable": {
-      "Id": "System.Collections.Immutable",
-      "Version": "1.5.0",
-      "Dependencies": []
-    },
     "System.ComponentModel.Annotations": {
       "Id": "System.ComponentModel.Annotations",
       "Version": "4.7.0",
       "Dependencies": []
+    },
+    "System.IdentityModel.Tokens.Jwt": {
+      "Id": "System.IdentityModel.Tokens.Jwt",
+      "Version": "5.1.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[5.1.2, )"
+        }
+      ]
     },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
@@ -800,7 +1045,7 @@
     },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
-      "Version": "4.10.0",
+      "Version": "5.0.0",
       "Dependencies": []
     },
     "System.Threading.Tasks.Extensions": {
@@ -818,9 +1063,42 @@
       "Version": "4.5.0",
       "Dependencies": []
     },
+    "Twilio": {
+      "Id": "Twilio",
+      "Version": "5.46.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[5.1.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.1, )"
+        },
+        {
+          "Item1": "System.IdentityModel.Tokens.Jwt",
+          "Item2": "[5.1.2, )"
+        }
+      ]
+    },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "20.10.7641.24102",
+      "Version": "21.10.30.58966",
+      "Dependencies": []
+    },
+    "UiPath.Activities.RuntimeGovernance": {
+      "Id": "UiPath.Activities.RuntimeGovernance",
+      "Version": "1.1.3",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.4.0",
       "Dependencies": []
     },
     "UiPath.Excel.Activities": {
@@ -852,6 +1130,11 @@
           "Item2": "[1.0.0, )"
         }
       ]
+    },
+    "UiPath.ImageProcessing": {
+      "Id": "UiPath.ImageProcessing",
+      "Version": "21.10.2",
+      "Dependencies": []
     },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
@@ -905,42 +1188,22 @@
     },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
-      "Version": "2.4.1",
+      "Version": "3.3.2",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
-        },
-        {
-          "Item1": "AForge.Imaging",
-          "Item2": "[2.2.5, )"
-        },
-        {
-          "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "NLog",
-          "Item2": "[4.5.11, )"
-        },
-        {
-          "Item1": "System.Collections.Immutable",
-          "Item2": "[1.5.0, )"
-        },
-        {
-          "Item1": "System.ValueTuple",
-          "Item2": "[4.5.0, )"
+          "Item2": "[2.9.1, )"
         }
       ]
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.7.1",
+      "Version": "2.9.1",
       "Dependencies": []
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "20.10.4",
+      "Version": "21.10.0",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -1016,53 +1279,63 @@
     },
     "UiPath.Telemetry.Client": {
       "Id": "UiPath.Telemetry.Client",
-      "Version": "1.2.20",
+      "Version": "1.5.3",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.1, )"
+          "Item2": "[11.0.2, )"
         },
         {
           "Item1": "System.Threading.Tasks.Dataflow",
-          "Item2": "[4.10.0, )"
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.Twilio.Activities": {
+      "Id": "UiPath.Twilio.Activities",
+      "Version": "1.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.3, )"
+        },
+        {
+          "Item1": "Twilio",
+          "Item2": "[5.46.2, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.2.20, )"
         }
       ]
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "20.10.9",
+      "Version": "21.10.3",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[20.10.7641.24102, 20.10.7641.24102]"
+          "Item2": "[21.10.30.58966, 21.10.30.58966]"
         },
         {
           "Item1": "UiPath.Vision",
-          "Item2": "[2.2.0, )"
+          "Item2": "[3.1.4, )"
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
+          "Item2": "[2.9.1, )"
         },
         {
           "Item1": "UiPath.OCR.Activities",
-          "Item2": "[2.4.1, )"
+          "Item2": "[3.3.2, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[20.10.4, )"
-        },
-        {
-          "Item1": "AvalonEdit",
-          "Item2": "[5.0.3, )"
-        },
-        {
-          "Item1": "Extended.Wpf.Toolkit",
-          "Item2": "[3.8.1, )"
-        },
-        {
-          "Item1": "Humanizer.Core",
-          "Item2": "[2.4.2, )"
+          "Item2": "[21.10.0, )"
         },
         {
           "Item1": "Newtonsoft.Json",
@@ -1073,76 +1346,85 @@
           "Item2": "[3.0.10, )"
         },
         {
+          "Item1": "UiPath.ImageProcessing",
+          "Item2": "[21.10.2, )"
+        },
+        {
           "Item1": "UiPath.Telemetry.Client",
-          "Item2": "[1.2.20, )"
+          "Item2": "[1.5.3, )"
+        },
+        {
+          "Item1": "UiPath.Activities.RuntimeGovernance",
+          "Item2": "[1.1.3, )"
         }
       ]
     },
     "UiPath.Vision": {
       "Id": "UiPath.Vision",
-      "Version": "2.2.0",
+      "Version": "3.1.4",
       "Dependencies": [
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.7.1, )"
+          "Item2": "[2.9.1, )"
         }
       ]
     },
-    "UiPathTeam.GoogleMaps.Activities": {
-      "Id": "UiPathTeam.GoogleMaps.Activities",
-      "Version": "0.1.7192.29405",
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.9.2",
       "Dependencies": [
         {
+          "Item1": "AvalonEdit",
+          "Item2": "[6.0.1, )"
+        },
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.7.0, )"
+        },
+        {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[12.0.2, )"
+          "Item2": "[11.0.2, )"
         },
         {
           "Item1": "RestSharp",
           "Item2": "[106.6.10, )"
         }
       ]
+    },
+    "WeatherReport.Activities": {
+      "Id": "WeatherReport.Activities",
+      "Version": "1.0.5",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.System.Activities",
+          "Item2": "[19.10.1, )"
+        },
+        {
+          "Item1": "UiPath.UIAutomation.Activities",
+          "Item2": "[19.11.0, )"
+        },
+        {
+          "Item1": "UiPath.WebAPI.Activities",
+          "Item2": "[1.4.4, )"
+        }
+      ]
+    },
+    "YahooWeatherSD": {
+      "Id": "YahooWeatherSD",
+      "Version": "1.0.1",
+      "Dependencies": []
     }
   },
   "AllPackages": [
     {
       "Package": {
-        "Id": "AForge",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge\\2.2.5\\lib\\AForge.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\aforge\\2.2.5"
-    },
-    {
-      "Package": {
-        "Id": "AForge.Imaging",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge.imaging\\2.2.5\\lib\\AForge.Imaging.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\aforge.imaging\\2.2.5"
-    },
-    {
-      "Package": {
-        "Id": "AForge.Math",
-        "Version": "2.2.5"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\aforge.math\\2.2.5\\lib\\AForge.Math.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\aforge.math\\2.2.5"
-    },
-    {
-      "Package": {
         "Id": "AvalonEdit",
-        "Version": "5.0.3"
+        "Version": "6.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\avalonedit\\6.0.1\\lib\\net45\\ICSharpCode.AvalonEdit.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\avalonedit\\5.0.3"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\avalonedit\\6.0.1"
     },
     {
       "Package": {
@@ -1186,26 +1468,12 @@
     },
     {
       "Package": {
-        "Id": "Extended.Wpf.Toolkit",
-        "Version": "3.8.1"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
-    },
-    {
-      "Package": {
         "Id": "Google.Apis",
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis\\1.43.0\\lib\\net45\\Google.Apis.PlatformServices.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\google.apis\\1.43.0"
     },
@@ -1215,8 +1483,8 @@
         "Version": "1.43.0"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth\\1.43.0\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\google.apis.auth\\1.43.0"
     },
@@ -1271,16 +1539,6 @@
         "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities\\1.0.4\\lib\\net461\\GoogleMaps.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\googlemaps.activities\\1.0.4"
-    },
-    {
-      "Package": {
-        "Id": "Humanizer.Core",
-        "Version": "2.4.2"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core\\2.4.2\\lib\\netstandard2.0\\Humanizer.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core\\2.4.2"
     },
     {
       "Package": {
@@ -1391,6 +1649,16 @@
         "C:\\Users\\Owner\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.CSharp",
+        "Version": "4.7.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\lib\\net45\\_._"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\microsoft.csharp\\4.7.0"
     },
     {
       "Package": {
@@ -1505,6 +1773,26 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.IdentityModel.Logging",
+        "Version": "1.1.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.logging\\1.1.2\\lib\\net451\\Microsoft.IdentityModel.Logging.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.logging\\1.1.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Tokens",
+        "Version": "5.1.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.1.2\\lib\\net451\\Microsoft.IdentityModel.Tokens.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.1.2"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Rest.ClientRuntime",
         "Version": "2.3.21"
       },
@@ -1526,22 +1814,12 @@
     {
       "Package": {
         "Id": "Newtonsoft.Json",
-        "Version": "12.0.2"
+        "Version": "12.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.3\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.2"
-    },
-    {
-      "Package": {
-        "Id": "NLog",
-        "Version": "4.5.11"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\nlog\\4.5.11\\lib\\net45\\NLog.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\nlog\\4.5.11"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.3"
     },
     {
       "Package": {
@@ -1549,12 +1827,22 @@
         "Version": "2.4.1"
       },
       "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
         "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "OpenWeatherMap.Activities",
+        "Version": "1.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\openweathermap.activities\\1.0.3\\lib\\net45\\OpenWeatherMap.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\openweathermap.activities\\1.0.3"
     },
     {
       "Package": {
@@ -1588,16 +1876,6 @@
     },
     {
       "Package": {
-        "Id": "System.Collections.Immutable",
-        "Version": "1.5.0"
-      },
-      "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\system.collections.immutable\\1.5.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
-      ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\system.collections.immutable\\1.5.0"
-    },
-    {
-      "Package": {
         "Id": "System.ComponentModel.Annotations",
         "Version": "4.7.0"
       },
@@ -1605,6 +1883,16 @@
         "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IdentityModel.Tokens.Jwt",
+        "Version": "5.1.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.1.2\\lib\\net451\\System.IdentityModel.Tokens.Jwt.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.1.2"
     },
     {
       "Package": {
@@ -1689,12 +1977,12 @@
     {
       "Package": {
         "Id": "System.Threading.Tasks.Dataflow",
-        "Version": "4.10.0"
+        "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
@@ -1718,13 +2006,46 @@
     },
     {
       "Package": {
-        "Id": "UiPath",
-        "Version": "20.10.7641.24102"
+        "Id": "Twilio",
+        "Version": "5.46.2"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath\\20.10.7641.24102\\lib\\UiPath.Interop.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\twilio\\5.46.2\\lib\\net451\\Twilio.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath\\20.10.7641.24102"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\twilio\\5.46.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath",
+        "Version": "21.10.30.58966"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath\\21.10.30.58966\\lib\\net45\\UiPath.Interop.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath\\21.10.30.58966"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Activities.RuntimeGovernance",
+        "Version": "1.1.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3\\lib\\net461\\UiPath.Activities.RuntimeGovernance.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0\\lib\\net452\\Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0\\lib\\net452\\UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0\\lib\\net452\\UiPath.Database.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0\\lib\\net452\\UiPath.Database.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.database.activities\\1.4.0"
     },
     {
       "Package": {
@@ -1737,6 +2058,16 @@
         "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities\\2.9.5\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.excel.activities\\2.9.5"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.ImageProcessing",
+        "Version": "21.10.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.imageprocessing\\21.10.2\\lib\\net461\\UiPath.ImageProcessingInterop.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.imageprocessing\\21.10.2"
     },
     {
       "Package": {
@@ -1755,34 +2086,34 @@
     {
       "Package": {
         "Id": "UiPath.OCR.Activities",
-        "Version": "2.4.1"
+        "Version": "3.3.2"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\2.4.1\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\2.4.1\\lib\\net461\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\2.4.1\\lib\\net461\\UiPath.OCR.Core.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\lib\\net461\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\2.4.1"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.activities\\3.3.2"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.7.1"
+        "Version": "2.9.1"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "20.10.4"
+        "Version": "21.10.0"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform\\20.10.4\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform\\21.10.0\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform\\20.10.4"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.platform\\21.10.0"
     },
     {
       "Package": {
@@ -1809,65 +2140,90 @@
     {
       "Package": {
         "Id": "UiPath.Telemetry.Client",
-        "Version": "1.2.20"
+        "Version": "1.5.3"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client\\1.2.20\\lib\\net461\\TelemetryClient.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\net461\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client\\1.2.20"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Twilio.Activities",
+        "Version": "1.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities\\1.1.0\\lib\\net461\\UiPath.ContactCenterIntegrations.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities\\1.1.0\\lib\\net461\\UiPath.Twilio.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities\\1.1.0\\lib\\net461\\UiPath.Twilio.Activities.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.twilio.activities\\1.1.0"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "20.10.9"
+        "Version": "21.10.3"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.9"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.3"
     },
     {
       "Package": {
         "Id": "UiPath.Vision",
-        "Version": "2.2.0"
+        "Version": "3.1.4"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.Tesseract.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\2.2.0"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.vision\\3.1.4"
     },
     {
       "Package": {
-        "Id": "UiPathTeam.GoogleMaps.Activities",
-        "Version": "0.1.7192.29405"
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.9.2"
       },
       "Assemblies": [
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities\\0.1.7192.29405\\lib\\net461\\UiPathTeam.GoogleMaps.Activities.Design.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities\\0.1.7192.29405\\lib\\net461\\UiPathTeam.GoogleMaps.Activities.dll",
-        "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities\\0.1.7192.29405\\lib\\net461\\UiPathTeam.GoogleMaps.dll"
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities\\1.9.2\\lib\\net461\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities\\1.9.2\\lib\\net461\\UiPath.Web.Activities.dll",
+        "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities\\1.9.2\\lib\\net461\\UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipathteam.googlemaps.activities\\0.1.7192.29405"
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\uipath.webapi.activities\\1.9.2"
+    },
+    {
+      "Package": {
+        "Id": "WeatherReport.Activities",
+        "Version": "1.0.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\weatherreport.activities\\1.0.5\\lib\\net45\\WeatherReport.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\weatherreport.activities\\1.0.5"
+    },
+    {
+      "Package": {
+        "Id": "YahooWeatherSD",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Owner\\.nuget\\packages\\yahooweathersd\\1.0.1\\lib\\YahooWeatherAPI.dll"
+      ],
+      "Path": "C:\\Users\\Owner\\.nuget\\packages\\yahooweathersd\\1.0.1"
     }
   ]
 }
