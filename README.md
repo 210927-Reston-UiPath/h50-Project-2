@@ -1,9 +1,8 @@
-# h50-P2
-This repo contains files for P2
+# Road Trip Automation
 
-## P2 Goal
+## Overview
 
-To create an automation that can help with local trips as well as long distance road trips by listing routes and weather conditions of the route used and the trips destination.
+This automation is used to help plan local as well as long distance road trips by listing a route to the destination and provides weather forecast information for the destination at expected time of arrival. It also lists gas stations along the users route to plan possible stops while traveling to the destination. The information will be sent to a users email as well as a summarized SMS text for easy retrieval of the information.
 
 ## Customer Story
 
