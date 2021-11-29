@@ -1,1 +1,0 @@
-openweathermap.activities key: 5eb2808bb6c18cfdef82ecde6ef7bd57
