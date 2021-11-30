@@ -9,7 +9,7 @@ This automation is used to help plan local as well as long distance road trips b
 A user wished to travel cross country to visit  their family over the holidays but has had previous 
 issues related to weather, construction, traffic conditions, and finding rest stops that have led them to often 
 appear late to their family gatherings. 
-- The user of " " should beable to enter a destination and receive a route 
+- The user of Road Trip Automation should be able to enter a destination and receive a route 
 that includes traffic and weather conditions to plan their trip. 
 - The user should be able to get updates on their route for traffic or weather changes and be suggested alternate routes in case of issues. 
 - The user should be able to receive a prediction of the weather of their destination based on the expected arrival time from using 
